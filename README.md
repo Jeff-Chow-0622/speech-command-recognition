@@ -17,17 +17,3 @@ What this project does
 
 5. Handles missing or broken audio files without crashing
 
-
-speech-command-recognition/
-├── src/
-│   ├── data.py        # dataset loading (robust to missing files)
-│   ├── features.py    # audio feature extraction
-│   ├── model.py       # CNN model
-│   ├── train.py       # training loop
-│   ├── utils.py
-│   └── config.py
-├── scripts/
-│   └── run_train.ps1
-├── data/              # local dataset folder (not tracked)
-├── README.md
-└── requirements.txt
