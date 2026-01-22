@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data (never commit)
+data/
+train/
+validation/
+*.wav
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Python
+__pycache__/
+*.pyc
+
+# Model outputs
+checkpoints/
+runs/
+logs/
+*.pt
+*.pth
+
